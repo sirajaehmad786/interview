@@ -1,0 +1,44 @@
+{
+    "ROLE":{
+        "CREATED":"Role created successfully",
+        "FETCHED":"Get all roles",
+        "ROLE_NOT_FOUND":"Role not found",
+        "ROLE_GET_BY_ID":"Role retrieved successfully",
+        "ROLE_UPDATED": "Role updated successfully",
+        "ROLE_DELETED":"Role deleted successfully",
+        "ROLE_NAME_EXISTS": "Role name already exists",
+        "INAVALID_DATA": "Invalid input data",
+        "INVALID_MODULE":"Invalid modules provided",
+        "ACCESS_MODULE_ADD":"Access modules updated successfully",
+        "ACCESS_MODULE_REMOVED":"Access modules removed successfully",
+        "ACCESS_MODULE_REQUIRED":"Access module is required as a string"
+    },
+    "USER":{
+        "EMAIL_EXISTS":"Email already exists",
+        "USER_REGISTER":"User registered successfully",
+        "USER_FETCH": "Users fetched successfully",
+        "USER_NOT_FOUND": "User not found",
+        "USER_UPDATE":"User updated successfully",
+        "USER_DELETE":"User deleted successfully",
+        "INVALID_CREDENCIAL":"Invalid email or password",
+        "INACTIVE_ACCOUNT":"Your account is inactive",
+        "INVALID_PASSWORD":"Invalid password",
+        "LOGIN_SUCCESS":"Login successful",
+        "IS_USERID_ARRAY":"User IDs are required and should be an array",
+        "FIRSTNAME_OR_LASTNAME_UPDATE":"Either lastName or firstName is required to update",
+        "NO_BOTH":"You can update either lastName or firstName, not both",
+        "USERID_INVALID":"Some user IDs are invalid or not found",
+        "USER_CHANGE_NOT_FOUND":"No users found or no changes made",
+        "USER_ARRAY_REQUIRED":"Users array is required and should not be empty",
+        "NO_VALID_UPDATE_USER":"No valid user updates found",
+        "USER_SEARCH_NOT_FOUND":"User search not found"
+    },
+    "MIDDLEWARE":{
+        "ACCESS_DENIDED":"Access Denied. No token provided",
+        "INVALID_EXPIRE_TOKEN":"Invalid or Expired Token"
+    },
+    "ERRORS": {
+        "GENERAL": "Something went wrong",
+        "SERVER": "Internal server error"
+    }
+}
